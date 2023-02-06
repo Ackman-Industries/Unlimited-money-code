@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Input Example</title>
+  </head>
+  <body>
+    <h2>How much money do u want</h2>
+    <input type="text" id="inputNumber">
+    <button onclick="showNumber()">Submit</button>
+    <script>
+      function showNumber() {
+        var inputNumber = document.getElementById("inputNumber").value;
+        alert("Great now you have " + inputNumber +" moneys");
+      }
+    </script>
+  </body>
+</html>
